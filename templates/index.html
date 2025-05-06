@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRT ASSESSMENT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mt-5 shadow-lg">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h1 class="display-5">PRT ASSESSMENT</h1>
+                        <h3>Property Problem Severity Analyzer</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="{{ url_for('static', filename='images/property-icon.png') }}" alt="Property Icon" class="img-fluid mb-3" style="max-height: 150px;">
+                            <h4>Welcome to the Property Problem Severity Assessment Tool</h4>
+                            <p class="lead">
+                                This assessment will help you determine the severity of property management issues
+                                through a series of 5 targeted questions.
+                            </p>
+                        </div>
+                        
+                        <div class="alert alert-info">
+                            <h5>How it works:</h5>
+                            <ol>
+                                <li>Answer 5 yes/no questions about your property issue</li>
+                                <li>Get an instant severity assessment with visual thermometer</li>
+                                <li>Receive detailed recommendations based on your score</li>
+                                <li>Results are saved for your records</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <a href="{{ url_for('question') }}" class="btn btn-primary btn-lg">Start Assessment</a>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        <p>Designed for property management professionals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

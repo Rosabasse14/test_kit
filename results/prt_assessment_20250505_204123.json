@@ -1,0 +1,21 @@
+{
+    "timestamp": "2025-05-05 20:41:23",
+    "questions": [
+        "Do you find it difficult to consistently assess and document the condition of a unit before move-in and after move-out?",
+        "Are you currently not using a standardized tool or checklist to monitor the physical condition of properties over time?",
+        "Do you rely on manual methods or fragmented tools to keep track of critical dates like rent due dates, lease renewals, or maintenance schedules??",
+        "Do you lack a centralized dashboard that gives you a clear, real-time view of rent collection across all your properties?",
+        "Do you experience frequent communication gaps between tenants, maintenance teams, and property owners?"
+    ],
+    "answers": [
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "Yes"
+    ],
+    "score": 3,
+    "score_percentage": 60.0,
+    "severity_level": "medium",
+    "explanation": "MODERATE SEVERITY (50-79%): The property issue requires attention within a reasonable timeframe. While not an emergency, this level of severity could escalate if left unaddressed. Consider allocating resources to resolve these issues within the next 1-2 weeks."
+}
